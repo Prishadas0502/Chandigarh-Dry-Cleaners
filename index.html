@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chandigarh Dry Cleaners</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <!--Welcome Popup Video-->
+    <div class="video-popup" id="videoPopup">
+        <div class="video-container">
+            <button class="close-btn" id="closeBtn">&times;</button>
+            <video id="welcomeVideo" width="100%" autoplay muted>
+                <source src="Images/GIF.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <!--Sticky Whatsapp-->
+    <a  class="whats-app" href="https://wa.link/n9plmi" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
+    <!--Header-->
+    <div class="header">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="logo">
+                    <img src="Images/logo.png" alt="Chandigarh Dry Cleaners" width="120px">
+                    <div class="text">
+                        <h1>Chandigarh Dry Cleaners</h1>
+                        <p class="ef">Dyers & Drycleaners, Free Pickup & Delivery in Chandigarh.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 text-center">
+                <div class="d-inline-flex aa eg">
+                    <a class="px-3" href="https://www.facebook.com/share/1BtM298i3q/">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="px-3" href="https://www.instagram.com/chandigarhdrycleaners/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <a href="tel:9023555222" class="adc">+91 90235-55222</a> &nbsp; &nbsp;
+                <a href="tel:7341115557" class="adc">+91  73411-15557</a>
+                <a href="contact.html" class="pickup-btn">Schedule Your Pickup</a>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!--Navbar-->
+    <nav class="navbar">
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul class="nav-links" id="navMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    
+    <!--Hero Section-->
+    <div class="hero">
+        <video autoplay muted loop>
+            <source src="Images/Hero Section Video.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="ab">Dry Cleaners in Chandigarh <span style="color:#c32a2c;">– Pick Up & Delivery Service</span></h1>
+            <br><br><p class="ac">You Leave it, We Clean It!</p>
+            <br>
+            <a href="services.html" class="btn btn-lg">Explore Our Services</a>
+        </div>
+    </div>
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container pt-0 pt-lg-4">
+            <div class="row align-items-center">
+                <!-- Image Section -->
+                <div class="col-lg-5 text-center text-lg-left">
+                    <img class="img-fluid w-75 w-md-100" src="Images/1.jpg" alt="Laundry Service">
+                </div>
+    
+                <!-- Content Section -->
+                <div class="col-lg-7 mt-4 mt-lg-0 pl-lg-5 text-center text-lg-left">
+                    <h6 class="text-uppercase font-weight-medium mb-3 ad">About Chandigarh Dry Cleaners</h6>
+                    
+                    <p class="mb-2 ag justify-content-sm-start">
+                        Looking for a reliable dry cleaner in Chandigarh? You have found us. We treat your clothes like our 
+                        own. Whether it’s your best suit or a delicate saree, we specialize in dry cleaning services in 
+                        Chandigarh. Need it fast? Our same day dry cleaning is perfect for you.
+                    </p> 
+                    <p class="mb-2 ag justify-content-sm-start">
+                        Skip the trip. Our dry cleaning picks up and laundry pickup and delivery services bring convenience 
+                        right to your door. We also offer one-day dry cleaning for those urgent needs.
+                    </p>
+                    <p class="mb-2 ag justify-content-sm-start">
+                        For business and hotels our commercial laundry service is top notch. We understand your time is 
+                        valuable, which is why we offer dry cleaning home pickup and laundry home pickup. Don’t worry about 
+                        errands we are the cleaners that pickup and deliver, making your life easier.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div>
+        <div class="container services-section">
+            <h2><strong>Our Dry Cleaning Services</strong></h2><br>
+            <p class="ag">We specialize in Dry Cleaning Services in Chandigarh. From your everyday wear to special occasion attire, we clean all types of garments. Our same day dry cleaning and one-day dry cleaning services cater to those in need of quick turnaround. We also offer convenient dry cleaning pick up, laundry pickup and delivery.</p>
+            <br>
+            <div class="row">
+                <!-- Service 1 -->
+                <div class="col-md-6 aew">
+                    <div class="service-box">
+                        <img src="Images/Services/Dry Cleaners In Chandigarh.jpg" alt="Dry Cleaners In Chandigarh">
+                        <div class="content">
+                            <h3>Dry Cleaning Services</h3>
+                            <p>Expert cleaning that eliminates dirt and stains from apparel without water....</p>
+                            <a href="services.html" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="col-md-6 aew">
+                    <div class="service-box">
+                        <img src="Images/Services/Laundry Pick Up And Delivery.jpg" alt="Laundry Pick Up And Delivery">
+                        <div class="content">
+                            <h3>Laundry Services</h3>
+                            <p> Daily washing, drying, and ironing of garments to keep them new, clean....</p>
+                            <a href="services.html" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="col-md-6 aew">
+                    <div class="service-box">
+                        <img src="Images/Services/wash and iron service near me.jpg" alt="wash and iron service near me">
+                        <div class="content">
+                            <h3>Ironing and Pressing</h3>
+                            <p>Cleanly pressed garments with a sharp finish to ensure your ensemble is ....</p>
+                            <a href="services.html" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Service 4 -->
+                <div class="col-md-6 aew">
+                    <div class="service-box">
+                        <img src="Images/Services/Blanket Dry Cleaning Near Me.jpg" alt="Blanket Dry Cleaning Near Me">
+                        <div class="content">
+                            <h3>Stain Removal Treatments</h3>
+                            <p>Expert treatment to eliminate stubborn stains from materials without....</p>
+                            <a href="services.html" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="col-md-6 aew">
+                    <div class="service-box">
+                        <img src="Images/Services/Top Rated Dry Cleaners Near Me.jpg" alt="Top Rated Dry Cleaners Near Me">
+                        <div class="content">
+                            <h3>Corporate & Bulk Cleaning</h3>
+                            <p>Large business and bulk order cleaning solutions....</p>
+                            <a href="services.html" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="col-md-6 aew">
+                    <div class="service-box">
+                        <img src="Images/Services/Dry Cleaning Pick Up And Delivery.jpg" alt="Dry Cleaning Pick Up And Delivery">
+                        <div class="content">
+                            <h3>Pick-up & Delivery</h3>
+                            <p>Convenient pick-up service where we pick up your laundry, wash....</p>
+                            <a href="services.html" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    <br>
+    <!--Banner-->
+    <div class="container-fluid banner">
+        <div class="row align-items-center">
+            <!-- Video Section (First 6 Columns) -->
+            <div class="col-lg-6 bad">
+                <video class="banner-video" autoplay loop muted playsinline>
+                    <source src="Images/loudry vdo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+    
+            <!-- Text & Button Section (Next 6 Columns) -->
+            <div class="col-lg-6 banner-content">
+                <h1>Your Clothes Deserve the Best Care!</h1>
+                <p>We take care of your garments, not simply clean them. we understand how important your garments are to you, and we treat them with the same love and care. Our dry cleaning home pickup and laundry home pickup services simplify your life.</p>
+                <a href="Contact.html" class="pickup-btn">Book Your Wash Now</a>
+            </div>
+        </div>
+    </div>
+    
+    <!--Features-->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Left Section -->
+                <div class="col-lg-7 m-0 my-lg-5 pt-0 pt-lg-5 pr-lg-5">
+                    <h6 class="text-uppercase font-weight-medium mb-3 ad">Our Features</h6>
+                    <h1 class="mb-4 ae">Why Choose Us</h1>
+                    <p class="ai">
+                        We are the cleaners that pickup and deliver, and we value your time. Our commercial laundry service is 
+                        also available for business. We are reliable, convenient, and ready to meet all your needs.
+                    </p>
+                    <div class="row rtg">
+                        <div class="col-sm-6 mb-4">
+                            <h1 class="aa counter" data-target="10">0</h1>
+                            <h5 class="font-weight-bold aj">Years Experience</h5>
+                        </div>
+                        <div class="col-sm-6 mb-4">
+                            <h1 class="aa counter" data-target="250">0</h1>
+                            <h5 class="font-weight-bold aj">Expert Worker</h5>
+                        </div>
+                        <div class="col-sm-6 mb-4">
+                            <h1 class="aa counter" data-target="1250">0</h1>
+                            <h5 class="font-weight-bold aj">Happy Clients</h5>
+                        </div>
+                        <div class="col-sm-6 mb-4">
+                            <h1 class="aa counter" data-target="9550">0</h1>
+                            <h5 class="font-weight-bold aj">Dry Cleaning</h5>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Right Section -->
+                <div class="col-lg-5">
+                    <div class="d-flex flex-column align-items-center justify-content-center h-100 py-5 px-3 ah">
+                        <i class="fa fa-5x fa-certificate text-white mb-5"></i>
+                        <h1 class="display-1 text-white mb-3"><span class="counter" data-target="10">0</span>+</h1>
+                        <h1 class="text-white m-0">Years Experience</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Pricing-->
+    <div class="td">
+        <div class="footer1">
+            <div class="overlay2"></div>
+            <div class="row">
+                <!-- Left Side: Plan Description -->
+                <div class="col-md-6">
+                    <h2 class="ak">Choose your perfect plan</h2>
+                    <br><br><br>
+                    <p class="az">If it fits in the bag, we take care of it.</p><br>
+                    <p class="az"><strong>All Rinse Repeat plans include:</strong></p>
+                    <br><br>
+                    <ul class="list-unstyled mt-3 ap">
+                        <li>🚚 <del>$9.95</del> Free Pickup & Delivery</li>
+                        <li>⚡ <del>$9.95</del> Free Next-Day Rush Service</li>
+                        <li>💰 <del>$5.00</del> Waived Service Fee</li>
+                        <li>🧳 Unlimited rollover of bags and pounds</li>
+                        <li>🎁 $10 monthly credit for other services</li>
+                    </ul>
+                    <br><br>
+                    <small class="d-block mt-2 ap">Change, pause, or cancel your plan anytime.</small>
+                </div>
+    
+                <!-- Right Side: Pricing Plans -->
+                <div class="col-md-6">
+                    <div class="pricing-card">
+                        <h5 class="al">👜 1 Bag / month</h5>
+                        <p class="at al">Ideal for one person’s needs</p>
+                        <h4 class="am">$75 <small class="at am">/ bag</small></h4>
+                        <p class="at al">$75 / month</p>
+                        <a href="Contact.html" class="btn btn-block btn-select al">Choose this plan</a>
+                    </div>
+    
+                    <div class="pricing-card selected">
+                        <h5 class="al">👜👜 2 Bags / month</h5>
+                        <p class="at al">Perfect for couples</p>
+                        <h4 class="am">$72 <small class="at am">/ bag</small></h4>
+                        <p class="at al">$144 / month</p>
+                        <a href="Contact.html" class="btn btn-block btn-select al">Choose this plan</a>
+                    </div>
+    
+                    <div class="pricing-card">
+                        <h5 class="al">👜👜👜👜 4 Bags / month</h5>
+                        <p class="at al">Great for families</p>
+                        <h4 class="am">$70 <small class="at am">/ bag</small></h4>
+                        <p class="at al">$280 / month</p>
+                        <a href="Contact.html" class="btn btn-block btn-select al">Choose this plan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Testimonial Start -->
+    <div class="container py-5">
+        <h6 class="text-secondary text-uppercase text-center font-weight-medium mb-3">Testimonial</h6>
+        <h1 class="display-4 text-center mb-5">Our Clients Say</h1>
+    
+        <div class="testimonial-container">
+            <button class="testimonial-btn prev-btn" onclick="moveSlide(-1)">&#10094;</button>
+            
+            <div class="testimonial-wrapper" id="testimonialSlider">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-item">
+                    <img src="Images/testimonials/1.jpeg" alt="Client">
+                    <h5>Client Name</h5>
+                    <p class="text-muted">Profession</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="testimonial-item">
+                    <img src="Images/testimonials/2.jpg" alt="Client">
+                    <h5>Client Name</h5>
+                    <p class="text-muted">Profession</p>
+                    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="testimonial-item">
+                    <img src="Images/testimonials/3.jpeg" alt="Client">
+                    <h5>Client Name</h5>
+                    <p class="text-muted">Profession</p>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                </div>
+                <!-- Testimonial 4 -->
+                <div class="testimonial-item">
+                    <img src="Images/testimonials/4.jpg" alt="Client">
+                    <h5>Client Name</h5>
+                    <p class="text-muted">Profession</p>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+                </div>
+                <!-- Testimonial 5 -->
+                <div class="testimonial-item">
+                    <img src="Images/testimonials/1.jpeg" alt="Client">
+                    <h5>Client Name</h5>
+                    <p class="text-muted">Profession</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <!-- Testimonial 6 -->
+                <div class="testimonial-item">
+                    <img src="Images/testimonials/1.jpeg" alt="Client">
+                    <h5>Client Name</h5>
+                    <p class="text-muted">Profession</p>
+                    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+    
+            <button class="testimonial-btn next-btn" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </div>
+    
+    <!--Form Section-->
+     <div class="container mt-5 mb-5 ar">
+        <div class="row">
+            <div class="col-md-6">
+        <h2 class="text-center mb-4 ac">Contact Us</h2>
+        <form action="form.php" method="POST">
+            <div class="form-group">
+                <label for="name" class="a">Full Name</label>
+                <input type="text" class="form-control a" id="name" name="name" placeholder="Enter your name">
+            </div>
+    
+            <div class="form-group">
+                <label for="email" class="a">Email Address</label>
+                <input type="email" class="form-control a" id="email" name="email" placeholder="Enter your email">
+            </div>
+    
+            <div class="form-group">
+                <label for="phone" class="a">Phone Number</label>
+                <input type="tel" class="form-control a" id="phone" name="phone" placeholder="Enter your phone number">
+            </div>
+    
+            <div class="form-group">
+                <label class="a">Gender</label><br>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" a type="radio" name="gender" id="male" value="male">
+                    <label class="form-check-label a" for="male">Male</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input a" type="radio" name="gender" id="female" value="female">
+                    <label class="form-check-label a" for="female">Female</label>
+                </div>
+            </div>
+    
+            <div class="form-group">
+                <label for="message" class="a">Message</label>
+                <textarea class="form-control a" id="message" rows="4" placeholder="Enter your message"></textarea>
+            </div>
+    
+            <button type="submit" class="btn btn-primary btn-block">Submit</button>
+        </form>
+        </div>
+        <div class="col-md-6">
+            <img src="Images/Chandigarh.png" class="hut">
+        </div>
+        </div>
+    </div>
+<!--FAQs-->
+<div class="container faq-section" id="faqs">
+    <h2 style="margin-bottom: 26px; font-size: 30px;">Still have Doubts?</span></h2>
+    <p style="text-align: center; font-size: 16px">Here are some of the answers to common questions about our Services
+    </p><br>
+    <div class="panel-group" id="faqAccordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#faqAccordion" href="#faq1">How does dry cleaning differ from regular washing?
+                    </a>
+                </h4>
+            </div>
+            <div id="faq1" class="panel-collapse collapse">
+                <div class="panel-body" style="font-size: 14px;">Dry cleaning uses specialized solvents instead of water to clean clothes, preserving fabric quality and preventing shrinkage or color fading.</div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#faqAccordion" href="#faq2">Do you separate colors and fabrics before washing?
+                    </a>
+                </h4>
+            </div>
+            <div id="faq2" class="panel-collapse collapse">
+                <div class="panel-body" style="font-size: 14px;">Yes, we separate clothes by color and fabric type to ensure optimal cleaning and to prevent color bleeding
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#faqAccordion" href="#faq3">Can you press delicate fabrics like silk or satin?</a>
+                </h4>
+            </div>
+            <div id="faq3" class="panel-collapse collapse">
+                <div class="panel-body" style="font-size: 14px;">Yes, our team uses specialized techniques and equipment to safely press delicate fabrics without damaging them.
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#faqAccordion" href="#faq4"> Can all stains be removed?</a>
+                </h4>
+            </div>
+            <div id="faq4" class="panel-collapse collapse">
+                <div class="panel-body" style="font-size: 14px;">While we use advanced stain removal techniques, the success depends on the stain type and how long it's been set. We do our best to restore your garment.
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#faqAccordion" href="#faq5"> Is it safe to dry clean leather and suede items?
+                    </a>
+                </h4>
+            </div>
+            <div id="faq5" class="panel-collapse collapse">
+                <div class="panel-body" style="font-size: 14px;">Yes, we use specialized cleaning methods and products designed specifically for leather and suede to maintain their texture and color.
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#faqAccordion" href="#faq6">Do you offer wedding dress preservation after cleaning?</a>
+                </h4>
+            </div>
+            <div id="faq6" class="panel-collapse collapse">
+                <div class="panel-body" style="font-size: 14px;">Yes, we provide preservation services to protect your wedding dress from yellowing, aging, and environmental damage.</div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#faqAccordion" href="#faq7">Should I remove the hooks before sending curtains for cleaning?</a>
+                </h4>
+            </div>
+            <div id="faq7" class="panel-collapse collapse">
+                <div class="panel-body" style="font-size: 14px;">No, you can leave the hooks on. We handle the cleaning process carefully without damaging any hardware.
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#faqAccordion" href="#faq8">Do you clean all types of rugs, including oriental and Persian rugs?
+                    </a>
+                </h4>
+            </div>
+            <div id="faq8" class="panel-collapse collapse">
+                <div class="panel-body" style="font-size: 14px;">Yes, we specialize in cleaning all rug types, including delicate oriental and Persian rugs, using safe, effective cleaning methods.
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#faqAccordion" href="#faq9">Can you remove tough stains like ink or grease from uniforms?</a>
+                </h4>
+            </div>
+            <div id="faq9" class="panel-collapse collapse">
+                <div class="panel-body" style="font-size: 14px;"> Yes, we use specialized stain removal techniques suitable for tough stains commonly found on uniforms.
+
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#faqAccordion" href="#faq10"> Is it safe to dry clean high-end designer garments?
+                    </a>
+                </h4>
+            </div>
+            <div id="faq10" class="panel-collapse collapse">
+                <div class="panel-body" style="font-size: 14px;">Absolutely. We use gentle cleaning methods suitable for delicate fabrics and intricate designs, ensuring the preservation of quality and fit.
+
+
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#faqAccordion" href="#faq11">Do you offer in-home sofa cleaning services?
+                    </a>
+                </h4>
+            </div>
+            <div id="faq11" class="panel-collapse collapse">
+                <div class="panel-body" style="font-size: 14px;">Yes, we provide in-home sofa cleaning for convenience and to ensure a thorough, professional clean without moving the furniture.
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#faqAccordion" href="#faq12">Is there an additional charge for pick-up and delivery?
+                    </a>
+                </h4>
+            </div>
+            <div id="faq12" class="panel-collapse collapse">
+                <div class="panel-body" style="font-size: 14px;">Our pick-up and delivery service is free within certain areas. Please contact us to check availability and any applicable charges.
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#faqAccordion" href="#faq13">Do you offer discounts on bulk cleaning orders?
+                    </a>
+                </h4>
+            </div>
+            <div id="faq13" class="panel-collapse collapse">
+                <div class="panel-body" style="font-size: 14px;">Yes, we provide special pricing for bulk cleaning, ideal for hotels, uniforms, and large households. Contact us for a custom quote.</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Location-->
+<iframe class=""
+src="https://maps.google.com/maps?hl=en&q=Sector 44-c&t=&z=14&ie=UTF8&iwloc=B&output=embed"
+width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+referrerpolicy="no-referrer-when-downgrade" title="google-map">
+</iframe>
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="overlay"></div>
+        <div class="footer-content">
+            <div class="footer-info">
+                <div class="info-box">
+                    <i class="fas fa-clock asd"></i>
+                    <h3 class="edf">Timings</h3>
+                    <p class="you">Monday to Saturday: 10 AM - 8:30 PM</p>
+                    <p class="you">Sunday: 10 AM - 6:30 PM</p>
+                </div>
+                <div class="info-box">
+                    <i class="fas fa-envelope asd"></i>
+                    <h3 class="edf">E-MAIL</h3>
+                    <p class="you">drycleanerschandigarh@gmail.com</p>
+                </div>
+                <div class="info-box">
+                    <i class="fas fa-map-marker-alt asd"></i>
+                    <h3 class="edf">ADDRESS</h3>
+                    <p class="you">Booth No. 42</p>
+                    <p class="you">Sector 44-C</p>
+                    <p class="you">Chandigarh - 160019</p>
+                </div>
+            </div>
+
+            <div class="call-section">
+                <h2 class="edf">Call Us: <a href="tel:+919023555222
+                    " clas="yu">+919023555222</a></h2>
+            </div>
+
+            <div class="social-icons">
+                <a href="https://www.facebook.com/share/1BtM298i3q/"><img src="Images/Social Media/facebook.png" width="25px"></a>
+                <a href="https://www.instagram.com/chandigarhdrycleaners/"><img src="Images/Social Media/instagram.png" width="25px"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
